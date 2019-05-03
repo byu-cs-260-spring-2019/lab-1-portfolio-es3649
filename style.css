@@ -16,6 +16,12 @@ div.paragraph {
     margin: .25in;
 }
 
+div.code-block {
+    padding: .125in;
+    background-color: black;
+    color: #F0F0F8;
+}
+
 /* misc classes */
 .center-fit {
     display: block;
@@ -41,15 +47,13 @@ a {
 
 /* code should look like code, right? */
 code {
-    padding: .01in;
-    background: black;
-    color: #F0F0F8;
+    color: #D36025
 }
 
-code.comment {
-    padding: inherit;
-    background: inherit;
-    color: green;
+code.block {
+    padding: .0625in;
+    background: black;
+    color: #F0F0F8;
 }
 
 h1 code {
@@ -71,8 +75,4 @@ footer {
 /* IDs */
 #machu-poncho {
     max-width: 1.5in;
-}
-
-#grammar {
-    
 }
