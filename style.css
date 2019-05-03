@@ -1,1 +1,45 @@
+body {
+    background-color: rgb(200, 200, 233);
+}
 
+/* div classes */
+div.imgbox {
+    display: grid;
+    max-height: 100%;
+}
+
+div.heading {
+    align-self: center;
+}
+
+div.paragraph {
+    margin: .25in;
+}
+
+/* misc classes */
+.center-fit {
+    display: block;
+    max-width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* footer properties */
+footer a {
+    color: inherit;
+}
+
+footer {
+    padding-top: .125in;
+    padding-bottom: .125in;
+    color: #F0F0F8;
+    background-color: #444458;
+    
+}
+
+/* IDs */
+#machu-poncho {
+    max-width: 1.5in;
+}
