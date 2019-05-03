@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(200, 200, 233);
+    background-color: rgb(235, 235, 253);
 }
 
 /* div classes */
@@ -26,10 +26,39 @@ div.paragraph {
     text-align: center;
 }
 
-/* footer properties */
-footer a {
+.indent {
+    margin-left: .25in;
+}
+
+.logo {
+    max-height: .125in;
+}
+
+/* I don't like the purple links*/
+a {
     color: inherit;
 }
+
+/* code should look like code, right? */
+code {
+    padding: .01in;
+    background: black;
+    color: #F0F0F8;
+}
+
+code.comment {
+    padding: inherit;
+    background: inherit;
+    color: green;
+}
+
+h1 code {
+    padding: .125in;
+    background: black;
+    color: #F0F0F8;
+}
+
+/* footer properties */
 
 footer {
     padding-top: .125in;
@@ -42,4 +71,8 @@ footer {
 /* IDs */
 #machu-poncho {
     max-width: 1.5in;
+}
+
+#grammar {
+    
 }
