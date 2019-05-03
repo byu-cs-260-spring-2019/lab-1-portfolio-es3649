@@ -41,9 +41,10 @@ a {
 
 /* code should look like code, right? */
 code {
-    padding: .01in;
+    /* padding: .01in;
     background: black;
-    color: #F0F0F8;
+    color: #F0F0F8; */
+    color: #D36025
 }
 
 code.comment {
@@ -74,5 +75,5 @@ footer {
 }
 
 #grammar {
-    
+
 }
