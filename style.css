@@ -40,6 +40,12 @@ div.code-block {
     max-height: 1em;
 }
 
+button.mischief {
+    padding: .125in;
+    background-color: #444458;
+    color: #F0F0F8
+}
+
 /* I don't like the purple links*/
 a {
     color: inherit;
@@ -75,4 +81,8 @@ footer {
 /* IDs */
 #machu-poncho {
     max-width: 1.5in;
+}
+
+#mischiefBox {
+    display: none;
 }

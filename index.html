@@ -3,6 +3,7 @@
 
 <html>
     <link rel="stylesheet" href="style.css">
+    
 
     <div class="imgbox">
         <img class="center-fit"
@@ -20,6 +21,7 @@
     </head>
 
     <body>
+        <script type="text/javascript" src="./script.js"></script>
         <!-- about -->
         <div class="heading" >
             <h2>
@@ -76,6 +78,20 @@
             </ul>
         </div>
 
+        <script src="script.js"></script>
+
+        <div class="mischief">
+            <button class="mischief" onclick="doMischief()">Click to spawn a YouTube video!</button>
+        </div>
+
+        <div class="mischief" id="mischiefBox" >
+            <h1>EVASIVE HEADING!</h1>
+            <iframe width="560" height="315" alt="troll those seeing folks"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        </div>
+
         <!-- project list -->
         <div class="heading" >
             <h2>
@@ -120,11 +136,5 @@
         </p>
         <p class="center-text">Created by Eric Steadman on May 2, 2019</p>
     </footer>
-
-    <script>
-        document.getElementById("").onclick = function() {
-            // change elements to be dark mode
-        }
-    </script>
 
 </html>
